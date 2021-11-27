@@ -1,0 +1,53 @@
+header{
+	background-color:#FFFFFF
+    height: 100px;
+    margin: Opx Spx;
+	font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+    color: #747474;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+#titulo{
+	color:#0154a2 
+	
+}
+div#logo{		/* Logo de la taqueria*/
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	background-image: url("imagenes/TacosMC.jpg");
+	
+}
+
+div#cuerpo{
+	position:relative;
+	background-color:#FFFFFF;
+}
+
+
+
+footer {
+	background-color: #0154a2;
+	padding-top: 10px;
+	padding-bottom: 10PX;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #0154a2;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
