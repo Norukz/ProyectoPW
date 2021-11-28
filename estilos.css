@@ -14,17 +14,45 @@ header h1{
 	
 }
 
+header a{
+	transition: color 0.3s ease;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: darkolivegreen;
+	
+}
+
 .container{
-	width: 400px;
+	width: 700px;
 	margin: 0 auto;
 	
 }
 
+section article{
+	transition: box-shadow 0.3s ease;
+	background-color: #fff;
+	margin: 1rem 0;
+	border-radius: 0.5rem;
+	padding: 0.25rem 0;
+	cursor: pointer;
+}
 
+section article:hover {
+	
+	box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0,3);
+}
+
+section article h2, section article p{
+	
+	margin: 1rem;
+}
 
 body{
 	margin: 0;
-	background-color: #939393;
+	background-color: #A6A6A6;
 	
 }
 
@@ -40,19 +68,43 @@ body{
 	display: inline;
 }
 
+/*Estilo de la GALERIA*/
+.grid-container{
+	display: grid;
+	background-color: aliceblue;
+	grid-template-columns: auto auto auto;
+	gap: 20px;	
+	
+}
 
+.grid-item{
+	
+	
+  	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+	
+  	background-color:#03afff;
+  	border-radius: 4px;
+ 	transition: transform 0.3s ease-in-out;
+  	border: solid 1px rgb(255, 255, 255);	
+}
 
+.grid-item:hover{
+	filter: opacity(0.9);
+	transform: scale(0.04);
+}
+
+/*Estilo de la GALERIA*/
 
 
 footer {
 	background-color: #364552;
-	padding-top: 10px;
-	padding-bottom: 10PX;
+	padding: 1rem;
+	color: #FFFFFF;
 }
 .copyright {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	background-color: #364552;
 	color: #FFFFFF;
 	text-transform: uppercase;
