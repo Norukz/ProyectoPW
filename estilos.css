@@ -58,6 +58,7 @@ body{
 
 
 .left{
+	
 	float: left;
 	width: 200px;
 	height: 200px;
@@ -71,7 +72,7 @@ body{
 /*Estilo de la GALERIA*/
 .grid-container{
 	display: grid;
-	background-color: aliceblue;
+	background-color: #A6A6A6;
 	grid-template-columns: auto auto auto;
 	gap: 20px;	
 	
@@ -84,10 +85,10 @@ body{
  	align-items: center;
   	justify-content: center;
 	
-  	background-color:#03afff;
+  	background-color: #A6A6A6;
   	border-radius: 4px;
- 	transition: transform 0.3s ease-in-out;
-  	border: solid 1px rgb(255, 255, 255);	
+ 	transition: transform 0.5s ease-in-out;
+  		
 }
 
 .grid-item:hover{
